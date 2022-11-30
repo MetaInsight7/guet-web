@@ -55,7 +55,6 @@ while True:
     except:
         status_code = net_status_baidu()
         if status_code == 200:
-            print("123")
             pass
         else:
             login() 
